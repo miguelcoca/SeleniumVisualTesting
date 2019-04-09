@@ -2,7 +2,6 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
-import org.junit.rules.TestName;
 import org.junit.rules.TestWatcher;
 import org.junit.runner.Description;
 import org.openqa.selenium.By;
@@ -10,10 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import com.applitools.eyes.selenium.Eyes;
 import com.applitools.eyes.RectangleSize;
-import com.applitools.eyes.TestResults;
-import org.openqa.selenium.interactions.Actions;
 
-import java.security.PublicKey;
 
 public class App {
     private WebDriver driver;
